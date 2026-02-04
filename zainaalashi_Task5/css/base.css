@@ -1,0 +1,53 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  direction: rtl;
+}
+
+body {
+  font-family: 'Alexandria', sans-serif;
+  background: #fff;
+  color: #0A2540;
+  line-height: 1.8;
+}
+
+
+/* COLORS */
+:root {
+  --primary: #1BA9A1;
+  --dark: #0A2540;
+  --light: #E8F6FA;
+  --gray: #667085;
+  --white: #ffffff;
+}
+
+/* TYPOGRAPHY */
+h1, h2, h3 {
+  font-family: 'Alexandria', sans-serif;
+  color: var(--dark);
+}
+
+
+h1 { font-size: 40px; }
+h2 { font-size: 32px; }
+h3 { font-size: 20px; }
+
+p {
+  font-size: 15px;
+  color: #ffffff
+  
+
+}
+
+/* CONTAINER */
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+
